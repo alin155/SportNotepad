@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wo/wo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SportNotepad",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "比赛",
+        "iconPath": "image/tabbar-bisai.png",
+        "selectedIconPath": "image/tabbar-bisai-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "创建比赛",
+        "iconPath": "image/tabbar-cjbs-selected.png",
+        "selectedIconPath": "image/tabbar-cjbs-selected.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "创建比赛",
+        "iconPath": "image/tabbar-wo.png",
+        "selectedIconPath": "image/tabbar-wo-selected.png"
+      }
+    ]
+  }
+}
